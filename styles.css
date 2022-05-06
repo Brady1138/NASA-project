@@ -1,3 +1,30 @@
 body {
-    background-color: rgb(223, 11, 11);
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
 }
+.NASA {
+    display: flex;
+}
+h1 {
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+}
+img {
+    width: 850px;
+    height: 450px;
+    margin-bottom: 30px;
+    
+}
+div {
+    margin-right: 20px;
+    margin-left: 20 px;
+    margin-top: 20px;
+}
+nav {
+    display: flex;
+    background-color: E6E6E6;
+    width: 850px;
+    height: 324px;
+}
+
