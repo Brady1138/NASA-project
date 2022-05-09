@@ -13,7 +13,7 @@ h1 {
     left: 275px;
     font-size: 100px;
     filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
-    */ text-decoration-thickness: bold;
+    text-decoration-thickness: bold;
     color:rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
 }
@@ -81,7 +81,6 @@ button {
     background-color:rgb(105,105,105);
     border: none;
     color: white;
-    font-syle: bold;
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
@@ -89,4 +88,4 @@ button {
     font-size: 16px;
     margin-top: 10px;
   }
-}
+
