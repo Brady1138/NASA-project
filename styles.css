@@ -3,12 +3,22 @@ body {
     flex-direction: column;
 }
 .NASA {
+    position: relative;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 h1 {
-    position: relative;
-    top: 50%;
-    bottom: 50%;
+    position: absolute;
+    left: 275px;
+    font-size: 100px;
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+    */ text-decoration-thickness: bold;
+    color:rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+h4 {
+    font-family: 'Raleway', sans-serif;
 }
 img {
     width: 850px;
@@ -16,10 +26,34 @@ img {
     margin-bottom: 30px;
     
 }
+.list {
+    line-height:175%;
+}
+ul {
+    list-style-type: none;
+    color: rgb(105,105,105);
+    padding-left: 0px;
+    line-height: 175%;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 75%;
+}
+p {
+    color: rgb(105,105,105);
+    padding-left: 0px;
+    line-height: 125%;
+    font-size: 75%;
+    line-height: 150%;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.social {
+    margin-left: 20px;
+}
 div {
+    width: 270px;
     margin-right: 20px;
     margin-left: 20 px;
     margin-top: 20px;
+    justify-content: left;
 }
 nav {
     display: flex;
@@ -27,4 +61,32 @@ nav {
     width: 850px;
     height: 324px;
 }
-
+form {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 75%;
+    color: rgb(105,105,105);
+    border-color:rgb(230,230,230);
+}
+#name {
+    width: 200px;
+    margin-bottom: 10px;
+    border: none;
+}
+#message {
+    padding: 1.5rem;
+    width: 200px;
+    border: none;
+}
+button {
+    background-color:rgb(105,105,105);
+    border: none;
+    color: white;
+    font-syle: bold;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
